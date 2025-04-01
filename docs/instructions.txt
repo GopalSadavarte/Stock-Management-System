@@ -1,0 +1,124 @@
+##### Steps to setup Database #####
+
+## step 1:-
+    Install a postgresql database system into your PC (postgresql-17.2-3-windows-x64.exe).
+    Note : The exe file are given in docs folder for PostgreSQL
+    Note : In installing process they ask password for postgresql,
+           then set password to "admin"
+
+## step 2:-
+    After installation complete,Type pgAdmin4 in windows search.
+
+## step 3:-
+    Run pgAdmin4 application.
+
+## step 4:-
+    After pgAdmin4 are open, then click on top-left corner server menu down arrow.
+
+## step 5:-
+    Then they ask password to login then enter password "admin" which set at step 1.
+
+## step 6:-
+    After login you will see the "databases" menu in server -> PostgreSQL 17 -> databases.
+
+## step 7:-
+    Right click on that menu.
+    then create -> database.
+
+## step 8:-
+    After clicking database menu they ask name for database then set it to "KK Enterprises".
+
+## step 9:-
+    click on save button after giving name for database.
+
+## step 10:-
+    After creating a database you will see it in server -> PostgreSQL 17 ->Databases ->KK Enterprises.
+
+## step 11:-
+    Right click on created database in this case "KK Enterprises".
+    then click on restore menu.
+
+## step 12:-
+    Then they ask filename below format field,then choose a sql (kk_enterprise.sql) file which provide in docs folder (same directory) .
+
+## step 13:-
+    After choosing a database file click on restore button.
+
+## step 14:-
+    After completing the process open following table -
+    server -> PostgreSQL 17 -> Databases -> KK Enterprises -> Schemas -> public -> Tables -> users.
+
+## step 15:-
+    Right click on users table,
+    then "View/Edit Data" -> "All Rows"
+
+## step 16:-
+    You will see a record of users table,then you can only modify email,phone_no,address and joining_date.
+    Note : Do not edit username and password.
+
+## step 17:-
+    Remember the username and password.
+
+## step 18:-
+    close the pgAdmin4.
+-------------------------------------------------------------------------------------------------------------------------------------
+##### Steps To install JRE #####
+
+## step 1:-
+    Install JRE for running java applications (jre-8u441-windows-x64.exe)
+
+## step 2:-
+    after completing the installation set a environment variable of the JRE to system.
+    Copy the path of bin folder which located in 
+    "C:\program files\java\jre 8\bin"
+
+## step 3:-
+    set the copied path to system environment variables
+
+## step 4:-
+    Check JRE are install successfully or not by typing following command in cmd-
+    "java -version"
+    if it return JRE version then JRE are install successfully otherwise check environment variable or path which set to environment variable.
+-------------------------------------------------------------------------------------------------------------------------------------
+##### Steps Before running a application #####
+
+## step 1:-
+    Copy the exe(KK Enterprises.exe) file of application which provide in docs folder and paste it anywhere you want.
+
+## step 2:-
+    create a folder name as "kk_enterprises" in C Drive.
+    Note : Give name of the folder as it is.
+
+## step 3:-
+    In the "kk_enterprises" folder create following folders as it is -
+    1."attendance_reports" 
+    2."employee_reports"
+    3."inventory_reports"
+    4."late_arrival_reports"
+    5."payment_reports"
+    6."payroll_reports"
+    7."payrolls"
+    8."prepayment_reports"
+    9."receipt_reports"
+    10."stock_reports"
+    11."backup"
+    Note : Give name of the folders as it is.
+
+## step 4:-
+    Paste the all font files from fonts folder provided in docs folder at following location-
+    "C:\\Users\\user5\\AppData\\Local\\Microsoft\\Windows\\Fonts\\"
+    Note : Only files are paste at this folder not a folder as it is. 
+    
+## step 5:-
+    After creating above folders Run the application file(KK Enterprises.exe)
+
+## step 6:-
+    After running they ask username and password for login.
+
+## step 7:-
+    Enter username and password in appropriate fields (which you may be remember at step 17 of database setup).
+
+## step 8:-
+    After credentials are valid then application window will display.
+
+-----------------------------------------------------------------------------------------------------
