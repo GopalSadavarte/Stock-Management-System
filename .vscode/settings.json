@@ -1,0 +1,22 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Program Files (x86)\\PostgreSQL\\pgJDBC\\postgresql-42.7.2.jar",
+            "e:\\Java Project\\java_date_picker\\lib\\jcalendar-1.4.jar"
+        ],
+        "exclude": [
+            "lib/postgresql-42.7.2.jar",
+            "lib/jcalendar-1.4.jar"
+        ]
+    },
+    "cSpell.words": [
+        "belapur",
+        "jdbc",
+        "MIDC",
+        "prabhat"
+    ],
+    "java.project.explorer.showNonJavaResources": true
+}
