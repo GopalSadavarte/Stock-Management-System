@@ -2,7 +2,7 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>E:\Java Project\KK Enterprises\docs\KK Enterprises.jar</jar>
+  <jar>E:\Java Project\Stock Management System Backup\Stock Management System Backup.jar</jar>
   <outfile>KK Enterprises.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
@@ -13,7 +13,7 @@
   <stayAlive>false</stayAlive>
   <restartOnCrash>false</restartOnCrash>
   <manifest></manifest>
-  <icon>E:\Java Project\KK Enterprises\img\logo.ico</icon>
+  <icon>E:\Java Project\Stock Management System Backup\img\logo.ico</icon>
   <jre>
     <path>%JAVA_HOME%;%PATH%</path>
     <requiresJdk>false</requiresJdk>
